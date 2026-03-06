@@ -1,5 +1,5 @@
 {
-  "name": "@kinship-auto-layout/core",
+  "name": "@halfsweetlemon/kinship-auto-layout-core",
   "version": "0.1.0",
   "description": "Deterministic family tree auto-layout engine for printable kinship graphs",
   "type": "module",
@@ -17,10 +17,10 @@
   "homepage": "https://familytreeeasy.com",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bando/kinship-auto-layout.git"
+    "url": "git+https://github.com/HalfSweetLemon/kinship-auto-layout.git"
   },
   "bugs": {
-    "url": "https://github.com/bando/kinship-auto-layout/issues"
+    "url": "https://github.com/HalfSweetLemon/kinship-auto-layout/issues"
   },
   "keywords": [
     "family-tree",

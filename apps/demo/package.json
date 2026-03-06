@@ -1,5 +1,5 @@
 {
-  "name": "@kinship-auto-layout/demo",
+  "name": "@halfsweetlemon/kinship-auto-layout-demo",
   "private": true,
   "version": "0.1.0",
   "type": "module",
@@ -9,6 +9,6 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@kinship-auto-layout/core": "0.1.0"
+    "@halfsweetlemon/kinship-auto-layout-core": "0.1.0"
   }
 }

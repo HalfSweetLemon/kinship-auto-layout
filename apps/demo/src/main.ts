@@ -1,4 +1,4 @@
-import { layoutFamilyTree, type FamilyUnit } from '@kinship-auto-layout/core';
+import { layoutFamilyTree, type FamilyUnit } from '@halfsweetlemon/kinship-auto-layout-core';
 
 const inputEl = document.getElementById('input') as HTMLTextAreaElement;
 const outputEl = document.getElementById('output') as HTMLPreElement;

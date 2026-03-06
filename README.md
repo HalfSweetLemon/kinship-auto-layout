@@ -12,8 +12,8 @@ No account system, no editor UI, no AI writing.
 
 ## Packages
 
-- `@kinship-auto-layout/core` — pure TypeScript layout engine
-- `@kinship-auto-layout/demo` — tiny playground demo
+- `@halfsweetlemon/kinship-auto-layout-core` — pure TypeScript layout engine
+- `@halfsweetlemon/kinship-auto-layout-demo` — tiny playground demo
 
 ## Quick start
 
@@ -27,7 +27,7 @@ npm run demo
 ## Core API
 
 ```ts
-import { layoutFamilyTree } from '@kinship-auto-layout/core';
+import { layoutFamilyTree } from '@halfsweetlemon/kinship-auto-layout-core';
 
 const result = layoutFamilyTree({
   members: [{ id: 'p1' }, { id: 'p2' }],
