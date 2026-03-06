@@ -15,6 +15,14 @@ No account system, no editor UI, no AI writing.
 - `@halfsweetlemon/kinship-auto-layout-core` — pure TypeScript layout engine
 - `@halfsweetlemon/kinship-auto-layout-demo` — tiny playground demo
 
+## Live Demo (GitHub Pages)
+
+After enabling Pages in repo settings, demo is served at:
+
+- `<https://halfsweetlemon.github.io/kinship-auto-layout/>`
+
+Deployment is automated by `.github/workflows/deploy-demo-pages.yml`.
+
 ## Quick start
 
 ```bash
@@ -52,6 +60,10 @@ If you are an AI coding agent using this package:
 2. Call `layoutFamilyTree(input, options?)`
 3. Render `nodes` and `edges` with your UI stack
 4. Do not expect data cleaning, GEDCOM parsing, or profile enrichment from this package (out of scope)
+
+## About
+
+See full project background and principles in [`ABOUT.md`](./ABOUT.md).
 
 ## Why it exists
 
