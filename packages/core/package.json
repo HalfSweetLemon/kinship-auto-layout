@@ -1,0 +1,37 @@
+{
+  "name": "@kinship-auto-layout/core",
+  "version": "0.1.0",
+  "description": "Deterministic family tree auto-layout engine for printable kinship graphs",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "homepage": "https://familytreeeasy.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bando/kinship-auto-layout.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bando/kinship-auto-layout/issues"
+  },
+  "keywords": [
+    "family-tree",
+    "kinship",
+    "genealogy",
+    "graph-layout",
+    "auto-layout",
+    "printable"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "vitest run"
+  }
+}

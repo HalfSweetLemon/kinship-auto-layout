@@ -1,0 +1,20 @@
+{
+  "name": "kinship-auto-layout",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Deterministic auto-layout engine for printable family trees",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "build": "npm run -w @kinship-auto-layout/core build",
+    "test": "npm run -w @kinship-auto-layout/core test",
+    "demo": "npm run -w @kinship-auto-layout/demo dev"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3",
+    "vite": "^5.4.10",
+    "vitest": "^2.1.8"
+  }
+}
