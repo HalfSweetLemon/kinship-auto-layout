@@ -1,6 +1,6 @@
 {
   "name": "@halfsweetlemon/kinship-auto-layout-core",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Deterministic family tree auto-layout engine for printable kinship graphs",
   "type": "module",
   "main": "dist/index.js",
