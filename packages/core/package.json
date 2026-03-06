@@ -12,8 +12,10 @@
     }
   },
   "files": [
-    "dist"
+    "dist",
+    "README.md"
   ],
+  "license": "MIT",
   "homepage": "https://familytreeeasy.com",
   "repository": {
     "type": "git",
