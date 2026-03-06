@@ -4,3 +4,4 @@ dist
 coverage
 .vite
 package-lock.json
+docs/
